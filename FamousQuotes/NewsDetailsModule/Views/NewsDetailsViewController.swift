@@ -37,15 +37,15 @@ final class NewsDetailsViewController: UIViewController {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
         label.font = .systemFont(ofSize: 16, weight: .semibold)
-        label.numberOfLines = 2
+        label.numberOfLines = 3
         return label
     }()
     
-    let postTextLabel: UILabel = {
-        let label = UILabel()
+    let postTextLabel: UITextView = {
+        let label = UITextView()
         label.translatesAutoresizingMaskIntoConstraints = false
         label.font = .systemFont(ofSize: 13, weight: .regular)
-        label.numberOfLines = 0
+       // label.numberOfLines = 0
         return label
     }()
     
@@ -57,9 +57,8 @@ final class NewsDetailsViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.title = "Статья"
+        self.title = "Article"
         view.backgroundColor = .white
-        navigationController?.navigationBar.topItem?.title = ""
         addViews()
         layoutViews()
         presenter.setArticle()
@@ -76,7 +75,6 @@ final class NewsDetailsViewController: UIViewController {
         view.addSubview(postTextLabel)
         view.addSubview(stackView)
         stackView.addArrangedSubview(dateLabel)
-       // stackView.addArrangedSubview(likeImageView)
     }
     
     private func layoutViews() {
@@ -100,6 +98,7 @@ final class NewsDetailsViewController: UIViewController {
         postTextLabel.snp.makeConstraints { make in
             make.top.equalTo(postTitleLabel.snp.bottom).inset(-8)
             make.leading.trailing.equalTo(view.safeAreaLayoutGuide).inset(15)
+            make.bottom.equalTo(view.safeAreaLayoutGuide.snp.bottom).inset(-8)
         }
     }
 }

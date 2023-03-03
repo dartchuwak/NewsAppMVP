@@ -21,6 +21,7 @@ class NewsListViewController:UIViewController, NewsListViewControllerProtocol {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.title = "News"
         view.backgroundColor = .white
         view.addSubview(newsTableView)
         newsTableView.delegate = self
