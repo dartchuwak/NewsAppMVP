@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A38C650C29AA9537007FD1A8"
-               BuildableName = "FamousQuotes.app"
-               BlueprintName = "FamousQuotes"
-               ReferencedContainer = "container:FamousQuotes.xcodeproj">
+               BuildableName = "NewsAppMVP.app"
+               BlueprintName = "NewsAppMVP"
+               ReferencedContainer = "container:NewsAppMVP.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -36,7 +36,7 @@
                BlueprintIdentifier = "A39288B529B12F9800B63C2D"
                BuildableName = "FamousQuotesTestsV2.xctest"
                BlueprintName = "FamousQuotesTestsV2"
-               ReferencedContainer = "container:FamousQuotes.xcodeproj">
+               ReferencedContainer = "container:NewsAppMVP.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -47,7 +47,7 @@
                BlueprintIdentifier = "A39288A829B12E0000B63C2D"
                BuildableName = "FamousQuotesTests.xctest"
                BlueprintName = "FamousQuotesTests"
-               ReferencedContainer = "container:FamousQuotes.xcodeproj">
+               ReferencedContainer = "container:NewsAppMVP.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -58,7 +58,7 @@
                BlueprintIdentifier = "A39288C229B130F000B63C2D"
                BuildableName = "FamousQuotesTestsV3.xctest"
                BlueprintName = "FamousQuotesTestsV3"
-               ReferencedContainer = "container:FamousQuotes.xcodeproj">
+               ReferencedContainer = "container:NewsAppMVP.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -78,9 +78,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A38C650C29AA9537007FD1A8"
-            BuildableName = "FamousQuotes.app"
-            BlueprintName = "FamousQuotes"
-            ReferencedContainer = "container:FamousQuotes.xcodeproj">
+            BuildableName = "NewsAppMVP.app"
+            BlueprintName = "NewsAppMVP"
+            ReferencedContainer = "container:NewsAppMVP.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A38C650C29AA9537007FD1A8"
-            BuildableName = "FamousQuotes.app"
-            BlueprintName = "FamousQuotes"
-            ReferencedContainer = "container:FamousQuotes.xcodeproj">
+            BuildableName = "NewsAppMVP.app"
+            BlueprintName = "NewsAppMVP"
+            ReferencedContainer = "container:NewsAppMVP.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
